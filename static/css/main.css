@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.header {
+    z-index: 99;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #1C212B;
+    color: white;
+    margin: 0;
+}
+
+.header > img {
+    margin-left: 27px;
+}
+
+.header > p {
+    margin-right: 27px;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 77px;
+    background: #1C212B;
+}
+
+.footer > a > img{
+    width: 41px;
+    height: 41px;
+    margin: 10px;
+}
+
+#rns-logo {
+    width: 93px;
+    height: 31px;
+}
+
+.main {
+    z-index: 9;
+    background-image: url("/static/png/quest picture.png");
+    width: 100%;
+    height: 2400px;
+}
+
+.main-knowledge {
+    width: 100%;
+    min-height: 1000px;
+    background: #232935;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translateY(60px);
+}
+
+.title {
+    color: white;
+    margin-left: 10px;
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    transform: translateY(10px);
+}
+
+.section-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.knowledge-section {
+    width: 100%;
+    height: 67px;
+    background: #1C212B;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.knowledge-section > p {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-title {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.section-text {
+    display: none;
+    font-size: 16px;
+    margin-top: 15px;
+    max-width: 350px;
+}
+
+.main-profile {
+    width: 100%;
+    min-height: 1000px;
+    background: #232935;
+    margin-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.profile-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    height: 120px;
+    background: #1C212B;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.profile-description > img {
+    width: 90px;
+    height: 90px;
+}
+
+.profile-description > p {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+.joining-date {
+    height: 50px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #1C212B;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.joining-date > p {
+    font-size: 18px;
+    color: white;
+}
+
+#placeholder {
+    z-index: -99999;
+    font-size: 39px;
+    margin-bottom: 30px;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 300px;
+    height: 220px;
+    background-color: #1C212B;
+    color: white;
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 15px;
+}
+
+.achievement-img {
+    width: 61px;
+    height: 61px;
+}
+
+.upper-row {
+    margin-top: 0;
+}
+
+.upper-row, .lower-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.achievement-name {
+    font-size: 11px;
+}
+
+.achievement-date, .achievement-value {
+    font-size: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}

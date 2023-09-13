@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+        <title>Profile</title>
+    {% endblock %}
+
+    {% block body %}
+            <div class="main-profile">
+                <p id="placeholder">Профиль</p>
+                <p class="title">Профиль</p>
+                <div class="profile-description">
+                    <img class="profile-pic" src="/static/svg/User-Icon.svg">
+                    <p>Иван<br>Рунетов</p>
+                </div>
+                <div class="joining-date">
+                    <p>В компании</p>
+                    <p>c 02.04.2023</p>
+                </div>
+                <div class="achievements">
+                    <p class="achievements-title"></p>
+                    <div class="upper-row">
+                        <div class="single-achievement">
+                            <img src="/static/png/achievement.png" class="achievement-img">
+                            <p class="achievement-name">Достижение 1</p>
+                            <p class="achievement-date">02.04.2023</p>
+                            <p class="achievement-value">+100 очк.</p>
+                        </div>
+                        <div class="single-achievement">
+                            <img src="/static/png/achievement.png" class="achievement-img">
+                            <p class="achievement-name">Достижение 2</p>
+                            <p class="achievement-date">02.04.2023</p>
+                            <p class="achievement-value">+100 очк.</p>
+                        </div>
+                        <div class="single-achievement">
+                            <img src="/static/png/achievement.png" class="achievement-img">
+                            <p class="achievement-name">Достижение 3</p>
+                            <p class="achievement-date">02.04.2023</p>
+                            <p class="achievement-value">+100 очк.</p>
+                        </div>
+                    </div>
+                    <div class="lower-row">
+                        <div class="single-achievement">
+                            <img src="/static/png/achievement.png" class="achievement-img">
+                            <p class="achievement-name">Достижение 4</p>
+                            <p class="achievement-date">02.04.2023</p>
+                            <p class="achievement-value">+100 очк.</p>
+                        </div>
+                        <div class="single-achievement">
+                            <img src="/static/png/achievement.png" class="achievement-img">
+                            <p class="achievement-name">Достижение 5</p>
+                            <p class="achievement-date">02.04.2023</p>
+                            <p class="achievement-value">+100 очк.</p>
+                        </div>
+                        <div class="single-achievement">
+                            <img src="/static/png/achievement.png" class="achievement-img">
+                            <p class="achievement-name">Достижение 6</p>
+                            <p class="achievement-date">02.04.2023</p>
+                            <p class="achievement-value">+100 очк.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    {% endblock %}
